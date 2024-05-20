@@ -36,3 +36,35 @@ let negValue = -value
 // console.log(2**2);
 // console.log(2/2);
 // console.log(2%2);
+
+//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Increment
+
+//comparision and equality check both are deffrent In javascript 
+
+// === strict check means conversion check and it is equality check strictly from the datatypes. 
+
+//------------------------------------ Comparision--------------------------------------------------
+
+// this is basic conversion 
+//console.log(2>1);
+//console.log(2>=1);
+//console.log(2<1);
+//console.log(2==1);
+//console.log(2!=1);
+
+
+// its very complicated (datatypes changed and you can faces some issues )
+// console.log("2" >1);
+// console.log("02" >1);
+
+// console.log(null > 0);
+// console.log(null == 0);
+// console.log(null >= 0);
+
+
+// console.log(undefined == 0);
+// console.log(undefined < 0);
+// console.log(undefined < 0);
+
+//console.log("2"=== 2);
+
