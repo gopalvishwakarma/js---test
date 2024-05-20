@@ -22,3 +22,34 @@ let state
 // object => null is object in java script
 
 console.log(typeof "age");
+
+// Primitive ------
+
+// 7 Types: String, Number, Boolean, Null, Undefined, Symbol,BigInt
+
+// const score = 100
+// const scoreValue = 100.3
+// const isLoggedIn = false
+// const outsideTemp = null
+// let userEmail;
+
+// const id = Symbol('123')
+// const anotherId = Symbol('123')
+// consol.log(id == anotherId);
+
+// const bigNumber = 4484784878748
+
+
+// Reference (Non Primitive)----
+
+// Array, Objects, Functions
+
+// const heros = ["shaktiman", "Nagraj", "doga"];
+
+// let myObj = {
+// name: "hitesh",
+// age: 22,
+// }
+// const myFunction = function(){
+// console.log("Hello world");
+// }
