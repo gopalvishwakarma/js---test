@@ -53,3 +53,28 @@ console.log(typeof "age");
 // const myFunction = function(){
 // console.log("Hello world");
 // }
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive) : Any value places inside the stack gets a copy refrence.  
+
+// Heap(Non-Primitive) : Any value placed inside the heap gets a reference.
+
+let myYoutubename = "gopalkarma.com"
+
+let anothername = myYoutubename
+anothername = "vishwakarma"
+
+console.log(anothername);
+console.log(anothername);
+
+let userOne = {
+	email: "user@google.com",
+	upi: "user@ybl"
+}
+let userTwo = userOne
+
+userTwo.email = "hitesh@google"
+
+console.log(userOne.email);
+console.log(userTwo.email);
